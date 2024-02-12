@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.menu {
+  background-color: hsl(203, 14%, 32%);
+  height: 5rem;
+  display: flex;
+  position: relative;
+}
+
+.icon_MenuVector {
+  position:absolute;
+  display: block;
+  width: 3.5rem;
+  margin-left: 3%;
+  text-align: center;
+  transform: translateY(25%);
+}
+
+.logo {
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 5rem;
+  display: block;
+  text-align: center;
+}
+
+.insta_Logo, .meta_Logo {
+  position: absolute;
+  display: block;
+  width: 1.875rem; 
+  right: 19%;
+  transform: translateY(75%);
+}
+
+.meta_Logo {
+  right: 9%;
+  width: 1.975rem;
+}
+
+
+
+
+
+
+
+
