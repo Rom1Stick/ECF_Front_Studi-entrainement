@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   width: 100%;
+  font-family: Ruluko;
 }
 
 body {
@@ -67,8 +68,7 @@ main {
   top: 12vh; 
   color: #47555E; 
   font-size: 2.25rem; 
-  font-family: Ruluko; 
-  font-weight: 400; 
+  font-weight: 600; 
   line-height: 36px; 
   word-wrap: break-word
   
@@ -76,6 +76,7 @@ main {
   
 .subtitle_Index {
   margin-top: 10vh;
+  font-weight: 400;
   font-size: 1rem; 
 }
 
@@ -90,8 +91,31 @@ main {
   color: hsl(0, 0%, 100%); 
   font-size: 1.25rem; 
   font-family: Cedarville Cursive; 
-  font-weight: 400; 
+  font-weight: 500; 
 }
 
+.section_Two {
 
+  .section_TwoBack {
+    height: 65vh; 
+    background: hsl(203, 14%, 32%)
+  }
+
+    .title_Section02 {
+      margin-top: 7rem;
+      font-size: 24px; 
+      text-align: center; 
+      color: hsl(0, 0%, 100%); 
+      font-family: Ruluko; 
+      font-weight: 400; 
+    }
+
+    .text_Section02 {
+      width: 68vw;
+      color: hsl(0, 0%, 100%); 
+      font-weight: 400; 
+      line-height: 20px;
+      margin-top: 40vh;
+    }
+}
 
