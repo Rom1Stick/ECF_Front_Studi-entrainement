@@ -3,6 +3,10 @@
   padding: 0;
   width: 100%;
   font-family: Ruluko;
+
+  p {
+    margin: 0;
+  }
 }
 
 body {
@@ -18,7 +22,6 @@ body {
 
 .icon_MenuVector {
   position:absolute;
-  display: block;
   width: 3rem;
   margin-left: 3%;
   text-align: center;
@@ -31,13 +34,11 @@ body {
   left: 50%;
   transform: translate(-50%, 0);
   width: 5rem;
-  display: block;
   text-align: center;
 }
 
 .insta_Logo, .meta_Logo {
   position: absolute;
-  display: block;
   width: 1.875rem; 
   right: 19%;
   transform: translateY(75%);
@@ -117,5 +118,49 @@ main {
       line-height: 20px;
       margin-top: 40vh;
     }
+}
+
+.section_Three {
+  margin-top: 70vh;
+  width: 100%; 
+
+  .title_Section03 {
+    color: hsl(203, 14%, 32%); 
+    font-size: 20px; 
+  }
+
+  .galery {
+    position: absolute;
+
+    .img_Galery {
+      width: 60vw;
+      border-radius: 2.5rem;
+    }
+
+    .title_Galery {
+      color: hsl(0, 0%, 0%);
+      margin-bottom: 0;
+      margin-top: 1rem;
+    }
+  }
+
+  .galery_Index02{
+    margin-top: 75%;
+  }
+
+  .galery_Index03{
+    margin-top: 145%;
+  }
+
+  .button_Section03 {
+    width: 12rem;
+    margin-top: 215%;
+  }
+
+  .quote_Section03 {
+    background-color: hsl(203, 14%, 32%);
+    width: 100vw;
+    top: 150vh;
+  }
 }
 
