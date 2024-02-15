@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  width: 100%;
   font-family: Ruluko;
 
   p {
@@ -53,84 +52,74 @@ main {
   position: relative;
 }
 
-.img_backgroundIndex {
-  height: 100vh;
-  object-fit: cover;
-}
-
 .btn {
   color: hsl(0, 0%, 100%);
   background-color:hsl(203, 14%, 32%);
-}
-
-.title_Index, .subtitle_Index {
-
-  width: 100vw; 
-  top: 12vh; 
-  color: #47555E; 
-  font-size: 2.25rem; 
-  font-weight: 600; 
-  line-height: 36px; 
-  word-wrap: break-word
-  
-}
-  
-.subtitle_Index {
-  margin-top: 10vh;
-  font-weight: 400;
-  font-size: 1rem; 
-}
-
-.button_Section01 {
-  width: 12rem; 
-  margin-top: 20vh;
+  width: 12rem;
 }
 
 .quote {
-  top: 85vh; 
-  width: 75vw;
   color: hsl(0, 0%, 100%); 
   font-size: 1.25rem; 
   font-family: Cedarville Cursive; 
   font-weight: 500; 
 }
 
-.section_Two {
-
-  .section_TwoBack {
-    height: 65vh; 
-    background: hsl(203, 14%, 32%)
+.section_One {
+  background-image: url("../images/backgroundphoto_indexpage.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  padding: 4rem 0 2rem 0;
+  
+  .title_Index, .subtitle_Index {
+    
+    color: #47555E; 
+    font-size: 2.25rem; 
+    font-weight: 600; 
+    line-height: 36px; 
+    word-wrap: break-word;
+    
   }
+  
+  .subtitle_Index {
+    font-weight: 400;
+    font-size: 1rem; 
+  }
+}
 
+  .section_Two {
+    
+    .section_TwoBack {
+      /* height: 65vh;  */
+      background: hsl(203, 14%, 32%);
+    }
+    
     .title_Section02 {
-      margin-top: 7rem;
       font-size: 24px; 
-      text-align: center; 
       color: hsl(0, 0%, 100%); 
       font-family: Ruluko; 
       font-weight: 400; 
+      padding-top: 3rem;
     }
-
+    
     .text_Section02 {
-      width: 68vw;
       color: hsl(0, 0%, 100%); 
       font-weight: 400; 
       line-height: 20px;
-      margin-top: 40vh;
+      padding: 4rem 2.5rem;
     }
 }
 
 .section_Three {
-  margin-top: 70vh;
-  width: 100%; 
+  background-color: hsl(30, 38%, 54%);
 
   .title_Section03 {
-    color: hsl(203, 14%, 32%); 
+    color: hsl(0, 0%, 100%); 
     font-size: 20px; 
   }
 
   .galery {
-    position: absolute;
 
     .img_Galery {
       width: 60vw;
@@ -138,23 +127,21 @@ main {
     }
 
     .title_Galery {
-      color: hsl(0, 0%, 0%);
-      margin-bottom: 0;
+      color: hsl(0, 0%, 100%);
       margin-top: 1rem;
     }
-  }
 
-  .galery_Index02{
-    margin-top: 75%;
-  }
+    .text_Galery {
+      color: hsl(0, 0%, 100%);
+    }
 
-  .galery_Index03{
-    margin-top: 145%;
-  }
+    .icon_Galery {
+      margin-bottom: 3rem;
+    }
 
-  .button_Section03 {
-    width: 12rem;
-    margin-top: 215%;
+    .icon_Galery03 {
+      margin-bottom: 1rem;
+    }
   }
 
   .quote_Section03 {
