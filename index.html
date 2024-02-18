@@ -21,15 +21,54 @@
   <title>Charles Cantin</title>
 </head>
   <body>
-    <section class="menu">
-      <div class="icon_Menu">
-          <img class="icon_MenuVector" src="webroot\images\menu-vector-icon.png" 
-            alt="image de menu, permettant de naviguer dans le menu des pages">
+    <nav class="navbar navbar-expand-lg border-bottom border-body justify-content-between" data-bs-theme="dark">
+      <div class="container-fluid text-center">
+
+        <button class="navbar-toggler d-lg-none" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarNavAltMarkup" 
+          aria-controls="navbarNavAltMarkup" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="col-lg-4 d-flex justify-content-center align-items-center">
+          <img src="webroot/images/logo.png" alt="Logo" class="logo">
+        </div>
+    
+        <div class="col-lg-4">
+          <img src="/webroot/images/meta.png" alt="Logo de l'application Meta" class="meta_Logo me-3">
+          <img src="/webroot/images/instagram.png" alt="Logo de l'application Instagram" class="insta_Logo">
+        </div>
+    
+    
+        <div class="collapse navbar-collapse order-lg-3" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Galerie 
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Galerie globale</a></li>
+                <li><a class="dropdown-item" href="#">Mariage</a></li>
+                <li><a class="dropdown-item" href="#">Grossesse</a></li>
+                <li><a class="dropdown-item" href="#">Bébé</a></li>
+                <li><a class="dropdown-item" href="#">Famille</a></li>
+                <li><a class="dropdown-item" href="#">Baptême</a></li>
+                <li><a class="dropdown-item" href="#">Couple</a></li>
+              </ul>
+            </li>
+    
+            <a class="nav-link" href="#">Tarifs et prestations</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
       </div>
-      <img class="logo mx-auto" src="webroot\images\logo.png" alt="logo du site web portfolio de Charles Cantin"/>
-      <img class="insta_Logo" src="webroot\images\instagram.png" alt="logo de l'application Instagram" />
-      <img class="meta_Logo"  src="webroot\images\meta.png" alt="logo de l'application Meta" />
-    </section>
+    </nav>
+    
+    
 
     <main class="d-flex flex-column flex-wrap">
       <section class="section_One d-flex flex-column justify-content-center text-center">
@@ -95,18 +134,18 @@
     </main>
 
       <footer class="footer-dark">
-          <div class="container">
+          <div class="container text-center">
               <div class="row">
-                  <div class="col-sm-6 col-md-3 item">
+                  <div class="col-sm-6 item">
                       <ul>
                           <li><a href="#">Conditions générales d'utilisation</a></li>
                           <li><a href="#">Politique de confidentialité</a></li>
                       </ul>
                   </div>
-                  <div class="col-sm-6 col-md-3 item">
+                  <div class="col item ">
                     <button href="#" type="button" class="btn btn-outline-secondary">Contactez-nous</button> 
                   </div>
-                  <div class="col-md-6 item text">
+                  <div class="item  text">
                       <img class="logo mx-auto" src="webroot\images\logo.png" alt="logo du site web portfolio de Charles Cantin"/>
                   </div>
                   <div class="col item social">
@@ -118,5 +157,10 @@
           </div>
     </footer>
   </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+  crossorigin="anonymous"></script>
+
 </html>
  

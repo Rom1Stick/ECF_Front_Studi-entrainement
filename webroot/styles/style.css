@@ -3,7 +3,7 @@
   padding: 0;
   font-family: Ruluko;
 
-  p {
+  p{
     margin: 0;
   }
 }
@@ -12,37 +12,43 @@ body {
   background-color: hsl(0, 0%, 100%);
 }
 
-.menu {
+.navbar {
   background-color: hsl(203, 14%, 32%);
-  height: 5rem;
-  display: flex;
-  position: relative;
-}
+  color: hsl(0, 0%, 100%);
+  font-family: Ruluko;
 
-.icon_MenuVector {
-  position:absolute;
-  width: 3rem;
-  margin-left: 3%;
-  text-align: center;
-  transform: translateY(25%);
-}
 
-.logo {
-  width: 5rem;
-  text-align: center;
-}
+  .nav-link {
+    color:hsl(0, 0%, 100%)
+  }
 
-.insta_Logo, .meta_Logo {
-  position: absolute;
-  width: 1.875rem; 
-  right: 19%;
-  transform: translateY(75%);
-}
+  .nav-item a {
+    color: hsl(0, 0%, 100%);
+    
+  }
+    .dropdown-menu {
+      background-color: hsl(203, 14%, 32%);
+      border: none;
 
-.meta_Logo {
-  right: 9%;
-  width: 1.975rem;
-}
+      .dropdown-item {
+        text-align: center;
+      }
+    }
+  
+    .insta_Logo, .meta_Logo {
+      width: 1.875rem; 
+    }
+    
+    .meta_Logo {
+      width: 1.975rem;
+    }
+  }
+
+  .logo {
+    width: 5rem;
+    padding: 0.4rem;
+    margin-left: 50%;
+  }
 
 main {
   position: relative;
