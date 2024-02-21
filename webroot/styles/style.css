@@ -50,9 +50,6 @@ body {
     margin-left: 50%;
   }
 
-main {
-  position: relative;
-}
 
 .btn {
   color: hsl(0, 0%, 100%);
@@ -66,52 +63,22 @@ main {
   font-family: Cedarville Cursive; 
   font-weight: 500; 
 }
-
-.section_One {
-  background-image: url("../images/backgroundphoto_indexpage.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 90vh;
-  padding: 4rem 0 2rem 0;
-  
-  .title_Index, .subtitle_Index {
+.title, .subtitle {
     
-    color: #47555E; 
-    font-size: 2.25rem; 
-    font-weight: 600; 
-    line-height: 36px; 
-    word-wrap: break-word;
-    
-  }
+  color: #47555E; 
+  font-size: 2.25rem; 
+  font-weight: 600; 
+  line-height: 36px; 
+  word-wrap: break-word;
+  margin-bottom: 0;
   
-  .subtitle_Index {
-    font-weight: 400;
-    font-size: 1rem; 
-  }
 }
 
-  .section_Two {
-    
-    .section_TwoBack {
-      /* height: 65vh;  */
-      background: hsl(203, 14%, 32%);
-    }
-    
-    .title_Section02 {
-      font-size: 24px; 
-      color: hsl(0, 0%, 100%); 
-      font-family: Ruluko; 
-      font-weight: 400; 
-      padding-top: 3rem;
-    }
-    
-    .text_Section02 {
-      color: hsl(0, 0%, 100%); 
-      font-weight: 400; 
-      line-height: 20px;
-      padding: 4rem 2.5rem;
-    }
+.subtitle {
+  font-weight: 400;
+  font-size: 1rem;
 }
+
 
 .section_Three {
   background-color: hsl(30, 38%, 54%);

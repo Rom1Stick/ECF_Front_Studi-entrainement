@@ -1,0 +1,32 @@
+
+.section_One {
+  background-image: url("../images/backgroundphoto_indexpage.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  padding: 4rem 0 2rem 0; 
+}
+
+  .section_Two {
+    
+    .section_TwoBack {
+      /* height: 65vh;  */
+      background: hsl(203, 14%, 32%);
+    }
+    
+    .title_Section02 {
+      font-size: 24px; 
+      color: hsl(0, 0%, 100%); 
+      font-family: Ruluko; 
+      font-weight: 400; 
+      padding: 0 2rem;
+      padding-top: 3rem;
+    }
+    
+    .text_Section02 {
+      color: hsl(0, 0%, 100%); 
+      font-weight: 400; 
+      line-height: 20px;
+      padding: 3rem 2.5rem;
+    }
+}
