@@ -1,0 +1,72 @@
+.section_One {
+  h2 {
+    margin-bottom: -1.5vh;
+  }
+
+  .form-select {
+    height: 4vh;
+    width: 30vw;
+    border-color: hsl(203, 14%, 32%);
+    color: hsl(203, 14%, 32%);
+    line-height: 0.8rem;
+  }
+
+  .social_Info {
+    background-color: hsl(203, 14%, 32%);
+    border-radius: 12px;
+
+    p {
+      color: hsl(0, 0%, 100%);
+    }
+
+    .photo_Profile {
+      margin: auto 0 ;
+      width: 12vw;
+      height: 5vh;
+      border-radius: 100%;
+      background-size: cover;
+    }
+    .text_Profile {
+      line-height: 1.2rem;
+      margin: auto 0 ;
+      .sub_Profile {
+        font-size: 0.8rem;
+      }
+    }
+
+    .end {
+      margin: auto 0 ;
+      margin-left: auto;
+    
+      .icon_Profile {
+        padding: 0.3rem;
+        width: 9vw;
+        
+      }
+    }
+  }
+}
+
+.Gallery {
+  .photo_Gallery {
+    width: 65vw;
+  }
+
+  .btn {
+    width: 10rem;
+    background-color: hsla(0, 0%, 100%, 0.234);
+  }
+
+  .text_Gallery {
+    line-height: 1.2rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+    line-height: 1.2rem;
+  }
+
+  p {
+    color: hsl(0, 0%, 50%);
+  }
+}

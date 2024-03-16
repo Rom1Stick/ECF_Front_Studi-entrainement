@@ -13,7 +13,7 @@ body {
   background-color: hsl(0, 0%, 100%);
 }
 
-h3 {
+h3, h2 {
   color:#47555E; 
   font-weight: 400; 
 
@@ -57,12 +57,6 @@ h3 {
     margin-left: 50%;
   }
 
-
-.btn {
-  color: hsl(0, 0%, 100%);
-  background-color:hsl(203, 14%, 32%);
-  width: 12rem;
-}
 
 .quote {
   color: hsl(0, 0%, 100%); 
