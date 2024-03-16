@@ -19,6 +19,12 @@ h3, h2 {
 
 }
 
+.btn {
+  color: hsl(0, 0%, 100%);
+  background-color:hsl(203, 14%, 32%);
+  width: 12rem;
+}
+
 .navbar {
   background-color: hsl(203, 14%, 32%);
   color: hsl(0, 0%, 100%);

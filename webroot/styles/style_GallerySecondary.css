@@ -1,0 +1,18 @@
+.section_One {
+
+  
+  .btn_Top {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(203, 14%, 32%);
+    border: 1px solid hsl(203, 14%, 32%);
+  }
+  
+  .line {
+    border: 1px hsl(202, 6%, 74%) solid;
+  }
+
+  .img_Gallery {
+    width: 85vw;
+
+  }
+}
