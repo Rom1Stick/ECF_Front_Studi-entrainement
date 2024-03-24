@@ -1,0 +1,39 @@
+.section_One {
+
+  .line {
+    border: 1px hsl(202, 6%, 74%) solid;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+    margin-bottom: 0;
+  }
+
+
+  p {
+    line-height: 1rem; 
+  }
+  
+}
+
+.section_Two {
+  label {
+    font-size: 1.3rem;
+    color: hsl(203, 14%, 32%);
+  }
+
+  input, textarea {
+    border-color: hsl(0, 0%, 0%);
+    border-radius: 1rem;
+    border-width: 0.13rem;
+  };
+
+  button {
+    width: 30vw;
+
+  }
+
+  .btn-dark {
+    background-color: hsl(0, 0%, 0%);
+  }
+}
